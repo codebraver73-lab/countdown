@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    border-style: none;
+    height: 10vh;
+    width:20vh;
+    font-size: 3vh;
+    border-radius: 20px;
+        color: white;
+}
+#startbtn{
+    background-color: green;
+}
+
+#resetbtn{
+    background-color: blue;
+}
+
+#stopbtn{
+     background-color: red;
+}
+
+div{
+    width:80vh;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+p{
+    font-size: 25vh;
+}
